@@ -1,0 +1,151 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    min-height: 50px;
+    width: 100%;
+    background-color: #3e4e88;
+    position: sticky;
+    top: 0px;
+    padding: 12px;
+}
+.navlist{
+    color: white;
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.navlist li{
+    margin-right: 55px;
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+}
+.navlist li a:hover{
+    color:orange
+}
+.header{
+    height: 600px;
+    width: 100%;
+    background-color: #f56985;
+    display: flex;
+    flex-direction: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding: 45px;
+}
+.header h1{
+    font-size: 70px;
+}
+.header h4{
+    font-size: 26px;
+    color: rgb(194, 191, 191);
+    margin-top: 22px;
+}
+
+.myproject{
+    min-height: 700px;
+    width: 100%;
+}
+.myproject h1{
+    min-height: 100px;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    color: #2196f3;
+}
+.project{
+    min-height: 600px;
+    width: 100%;
+    border: 2px solid red;
+}
+.table{
+    height: 600px;
+    width: 100%;
+    border: 2px solid red;
+    text-align: center;
+    row-gap: 10px;
+    border-spacing: 45px;
+}
+.table tr td{
+    border: 2px solid red;
+    background-color: #f0365b;
+    color: white;
+    font-size: 24px;
+    border-radius: 25px;
+}
+.table tr td:hover{
+    background-color: #f81240;
+    box-shadow: 0px 0px 5px 5px grey;
+    transform: scale(1.05);
+}
+.table tr td a{
+    text-decoration: none;
+    color: white;
+}
+.worktogether{
+    min-height: 500px;
+    width: 100%;
+    background-color: #363748;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.worktogether h1{
+    color: white;
+    font-size: 70px;
+}
+.worktogether p{
+    color: rgb(157, 155, 155);
+    font-size: 30px;
+}
+.email{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 50px;
+    border: none;
+    text-align: center;
+}
+.submit{
+    height: 25px;
+    width: 70px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 25px;
+    background-color: #95a8ed;
+}
+.submit:hover{
+    transform: scale(1.05);
+}
+.footer{
+    min-height: 70px;
+    width:100%;
+    background-color: #0c344e;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.footer p{
+    color: white;
+    font-size: 24px;
+}
